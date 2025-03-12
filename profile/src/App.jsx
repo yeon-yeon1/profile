@@ -5,7 +5,7 @@ import Profile from "./pages/Profile";
 function App() {
   return (
     <Routes>
-      <Route path="/profile" element={<Profile />} />
+      <Route path="/" element={<Profile />} />
     </Routes>
   );
 }
