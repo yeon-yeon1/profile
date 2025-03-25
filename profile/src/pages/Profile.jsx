@@ -122,7 +122,7 @@ function Profile() {
         </S.RightSectionHead>
         <S.ProjectSection>
           <S.Group>
-            <S.TitlePink>Projecct</S.TitlePink>
+            <S.TitlePink>Project</S.TitlePink>
             <S.DivLine />
             <S.ProjectLineWrapper>
               <S.MedalWrapper>

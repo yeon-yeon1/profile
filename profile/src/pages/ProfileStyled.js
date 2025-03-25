@@ -1,5 +1,23 @@
 import styled from "styled-components";
 
+// const breakpoints = {
+//   mobile: "430px",
+//   tablet: "1180px",
+// };
+
+// const responsive = {
+//   mobile: (styles) => css`
+//     @media (min-width: ${breakpoints.mobile}) {
+//       ${styles}
+//     }
+//   `,
+//   tablet: (styles) => css`
+//     @media (min-width: ${breakpoints.tablet}) {
+//       ${styles}
+//     }
+//   `,
+// };
+
 export const ProfileDiv = styled.div`
   font-family: "Righteous", cursive;
   font-size: 65px;
@@ -11,6 +29,7 @@ export const ProfileDiv = styled.div`
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-top: 40px;
 `;
 
 export const Container = styled.div`
@@ -46,6 +65,7 @@ export const ProfileWrapper = styled.div`
 
   margin-left: 165px;
   // margin-top: 50px;
+  margin-top: 40px;
 `;
 
 // 오른쪽 섹션
@@ -54,22 +74,18 @@ export const RightSection = styled.div`
   flex-direction: column;
 `;
 
-// export const SpaceDiv = styled.div`
-//   height: 100px;
-// `;
-
 export const FirstGroup = styled.div`
   display: flex;
   flex-direction: column;
   // margin-top: -159px;
   // margin-left: -28px;
-  margin-top: 80px;
+  margin-top: 110px;
 `;
 
 export const Group = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
+  margin-top: 40px;
   // margin-left: -28px;
 `;
 
@@ -137,7 +153,7 @@ export const TitleYellow = styled.p`
 export const FirstYellowGroup = styled.div`
   display: flex;
   flex-direction: column;
-  margin-top: -60px;
+  margin-top: -20px;
   margin-left: 70px;
 `;
 
@@ -221,7 +237,8 @@ export const RightSectionHead = styled.div`
 export const ProjectSection = styled.div`
   display: flex;
   flex-direction: row;
-  padding-bottom: 15px;
+  margin-top: 60px;
+  padding-bottom: 95px;
   overflow-y: auto;
   overflow-x: hidden;
 `;
