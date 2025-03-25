@@ -37,7 +37,6 @@ import { ReactComponent as PJ24 } from "../assets/24.svg";
 function Profile() {
   return (
     <>
-      {/* <S.Container> */}
       {/* <S.LeftSection style={{ transform: `translateY(${scrollY}px)` }}> */}
       <S.LeftSection>
         <HeadIcon1 />
@@ -235,7 +234,6 @@ function Profile() {
           </S.Group>
         </S.ProjectSection>
       </S.RightSectionAll>
-      {/* </S.Container> */}
       <Footer />
     </>
   );
