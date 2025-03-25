@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import * as S from "./ProfileStyled.js";
 import Footer from "../components/Footer.jsx";
 import { ReactComponent as ProfileIcon } from "../assets/myprofile.svg";
